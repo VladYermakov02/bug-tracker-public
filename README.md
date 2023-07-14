@@ -1,11 +1,34 @@
 # bug-tracker
-An app to keep track of bugs, issues and proposals of some app.
+## Abstract
+The project was designed and developed to keep track of bugs, issues and proposals in software. The developers in teams can keep track of all issues and suggestions in one place. The program provides a set of key functions such as creating and managing teams, projects, and tickets. As auxiliary functions, the program provides the ability to make notes, comment on tickets, and send messages.
 
 ## Languages and technologies used
 ### Backend:
-Java 17; Spring Boot, Spring Jpa, Spring Security; MySQL; Maven
+Java 17; Spring Core, Spring MVC, Spring Boot, Spring Jpa, Spring Security; MySQL; Maven
 ### Frontend:
 TypeScript; JavaScript; HTML; CSS; React; Vite; Npm
+
+## Functional purpose
+The functional purpose of a web-based bug-tracking application is to offer a thorough and efficient method for monitoring and managing software defects and issues throughout the software development lifecycle. The software acts as a central hub for collecting, categorising, prioritising and fixing issues identified by users, testers or other team members.
+Another goal of the program is to offer a stable and user-friendly platform that simplifies bug, issue and proposal monitoring. Enhancing collaboration, simplifying communication, and ensuring effective bug management.
+
+## Functional requirements
+The application must provide the ability to:
+- account functionality;
+- register;
+- log in to your account (Login);
+- change your data;
+- view the available information that is assigned to the organisation of which the user is a part, namely information about colleagues, projects and all their tickets;
+- filter information;
+- search needed data through the search system;
+- sort by each data field;
+- display only the required number of items on the screen;
+- view ticket statistics (which bugs are still open, their status, priority, etc.) through graphs;
+- change information about tickets to which a user is assigned;
+- create new tickets, projects (if the user role is "Submitter") and new user accounts for their organisation (if the user role is "Admin");
+- write personal notes about the project or each ticket individually;
+- leave comments for each ticket separately;
+- attach a file to a ticket.
 
 ## Screenshots
 ### Login page
